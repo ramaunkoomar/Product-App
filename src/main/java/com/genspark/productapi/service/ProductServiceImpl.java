@@ -32,7 +32,7 @@ public class ProductServiceImpl implements ProductService {
     public void addProduct(Product product) {
         try {
             if(product == null) {
-                throw new IllegalArgumentException("Product cannot be null");
+                throw new IllegalArgumentException("Product cannot be null.");
             }
             productDao.save(product);
         }
