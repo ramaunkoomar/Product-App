@@ -3,5 +3,5 @@ CREATE SCHEMA IF NOT EXISTS `product-db`;
 CREATE TABLE IF NOT EXISTS `product`(
     `id` INT NOT NULL AUTO_INCREMENT,
     `name` VARCHAR(45) NOT NULL,
-    `price` INT
+    `price` FLOAT(10)
 );
